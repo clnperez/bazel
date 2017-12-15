@@ -18,7 +18,7 @@ constraint_value(
 )
 
 constraint_value(
-    name = "ppc",
+    name = "ppc64le",
     constraint_setting = ":cpu",
 )
 
@@ -65,7 +65,7 @@ platform(
     cpu_constraints = [
         ":x86_32",
         ":x86_64",
-        ":ppc",
+        ":ppc64le",
         ":arm",
         ":s390x",
     ],
@@ -83,7 +83,7 @@ platform(
     cpu_constraints = [
         ":x86_32",
         ":x86_64",
-        ":ppc",
+        ":ppc64le",
         ":arm",
         ":s390x",
     ],
